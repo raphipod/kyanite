@@ -1,4 +1,7 @@
-FROM ghcr.io/ublue-os/bazzite:stable
+ARG BASE_IMAGE_NAME="kinoite"
+ARG FEDORA_MAJOR_VERSION="41"
+ARG SOURCE_IMAGE="${BASE_IMAGE_NAME}-main"
+ARG BASE_IMAGE="ghcr.io/ublue-os/${SOURCE_IMAGE}"
 
 ## Other possible base images include:
 # FROM ghcr.io/ublue-os/bazzite:latest
