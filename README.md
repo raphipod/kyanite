@@ -1,5 +1,7 @@
 # Kyanite
 
+!! STILL WIP !!
+
 ### Sane. Stable. Supple.
 
 Kyanite is a uBlue-based Desktop Linux distribution.
