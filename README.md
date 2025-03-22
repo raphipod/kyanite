@@ -2,25 +2,36 @@
 
 ### Sane. Stable. Supple.
 
-Kyanite is your canvas in form of a desktop! Forget the mess of shattered windows.
+Kyanite is a uBlue-based Desktop Linux distribution.
 
 Imagine Kinoite with added goodies. Kyanite positions itself between Kinoite and Aurora.
 
 The distro is generally aimed at advanced Linux users who are used to working with immutable systems, especially
 ostree-based ones.
 
-Those brave await a no-bullshit Plasma desktop with the Wayland session and sane defaults.
-Everything just straight up werks™️. If an update breaks, it can be rolled back.
+It utilizes the powerful Plasma desktop with it's Wayland display server.
+
+## Kyanite follows these simple guidelines - you should too:
+
+1.  Install graphical apps with **Flatpak (Discover)**
+2.  Install CLI-Tools with **Homebrew (brew)**
+3.  As a last resort: Layer RPM-Packages with `rpm-ostree install`  
+  
 
 These applications are pre-installed by default:
 
+```
 - KDE Core Apps (Discover, Konsole, Dolphin)
 - Firefox
+```
 
-There will be two versions for different hardware platforms:
+## There will be two versions for different hardware platforms:
 
-- Kyanite (for AMD/Intel-based CPU & GPU desktops)
-- Kyanite-nvidia (for NVIDIA GPU desktops, contains the open-source NVIDIA drivers)
+| Editions         | for                                                                 |
+| ---------------- | ------------------------------------------------------------------- |
+| `Kyanite`        |  AMD/Intel-based CPU & GPU desktops                                 |
+| `Kyanite-nvidia` |  NVIDIA GPU desktops, contains the open-source NVIDIA drivers       |
+
 
 Kyanite is meant for Desktops only. There are many good alternative distros for handhelds already.
 
@@ -28,7 +39,8 @@ Kyanite is meant for Desktops only. There are many good alternative distros for 
 
 ### Seriously? Yet another uBlue-based distro?
 
-No. The uBlue-Distros are way too focused on doing one thing and (mostly) way too bloated. Kyanite tries
-to be a general tool, a workbench with only the necessities to get you started. With the powerful
-"just"-utility, Kyanite can be a simple browsing machine, a gaming machine, or even a fully-fledged
-development environment.
+You are right. You don't have to like it.
+
+If you want to know my justification for this distro, read ahead:
+The uBlue-Distros are way too focused on doing one thing and (mostly) way too bloated. Kyanite tries
+to be a general tool, a workbench with only the necessities to get you started.
